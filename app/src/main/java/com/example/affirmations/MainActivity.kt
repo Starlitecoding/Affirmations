@@ -60,7 +60,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
+//Datasource loads from data class
 @Composable
 fun AffirmationsApp() {
     AffirmationList(affirmationList = Datasource().loadAffirmations())
